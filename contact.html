@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <title>Raleigh Dexel</title>
+    <script
+      src="https://kit.fontawesome.com/441a59fd10.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <img src="./img/logo.png" alt="" />
+        <nav>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="pagenav">
+      <a href="index.html" class="btn-2">←back</a>
+    </div>
+
+    <!-- Grid Elements -->
+    <div class="contactpage m-1">
+      <div class="container grid">
+        <div class="card-getintouch p-1">
+          <div>
+            <h1>Get in Touch.</h1>
+            <p>raleighdexel@gmail.com</p>
+            <p>(360) 999 7488</p>
+          </div>
+        </div>
+        <div class="card-form">
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">
+              <label
+                >Don’t fill this out if you’re human: <input name="bot-field"
+              /></label>
+            </p>
+            <div class="form-name">
+              <input type="text" name="name" placeholder="name" required />
+            </div>
+
+            <div class="form-email">
+              <input type="email" name="email" placeholder="email" required />
+              <input type="hidden" name="form-name" value="contact" />
+            </div>
+            <div class="form-message">
+              <input
+                type="text"
+                name="company"
+                placeholder="message"
+                required
+              />
+            </div>
+            <input type="submit" value="send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer p-2">
+      <div class="container grid">
+        <div class="footer-text">
+          <h2>raleighdexel@gmail.com</h2>
+          <p>(360) 999 7488</p>
+        </div>
+        <div class="social flex">
+          <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-instagram-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-github-square fa-3x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

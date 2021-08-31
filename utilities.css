@@ -1,0 +1,111 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+h1 {
+  font-size: 4em;
+  letter-spacing: -4px;
+}
+h2 {
+  font-size: 2em;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 1em;
+  color: blue;
+  margin: 1em 0;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  color: var(--primaryColor);
+  border: solid 1px var(--primaryColor);
+  border-radius: 1em;
+  margin: 1em 0;
+}
+.btn-2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--primaryColor);
+  margin: 1em 0 0 1em;
+}
+
+/* flexbox and grid */
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+.grid {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* margin and padding */
+
+.m-1 {
+  margin: 1em;
+}
+.m-2 {
+  margin: 2em;
+}
+.m-3 {
+  margin: 3em;
+}
+
+.my-1 {
+  margin: 1em 0;
+}
+.my-2 {
+  margin: 2em 0;
+}
+.my-3 {
+  margin: 3em 0;
+}
+
+.p-1 {
+  padding: 1em;
+}
+.p-2 {
+  padding: 2em;
+}
+.p-3 {
+  padding: 3em;
+}
+
+.py-1 {
+  padding: 1em 0;
+}
+.py-2 {
+  padding: 2em 0;
+}
+.py-3 {
+  padding: 3em 0;
+}
