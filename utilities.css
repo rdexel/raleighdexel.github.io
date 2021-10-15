@@ -22,8 +22,8 @@ h3 {
 }
 
 p {
-  font-family: "Roboto Mono", monospace;
-  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6em;
 }
 
 .hidden {
@@ -32,13 +32,19 @@ p {
 }
 
 .btn {
+  font-size: 1.5em;
   display: inline-block;
   padding: 10px;
   cursor: pointer;
   color: var(--primaryColor);
-  border: solid 1px var(--primaryColor);
+  border: solid 2px var(--primaryColor);
   border-radius: 1em;
   margin: 1em 0;
+  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.btn:hover {
+  background: rgb(0, 0, 0, 0.6);
+  transform: scale(94%);
 }
 .btn-2 {
   font-family: "Roboto Mono", monospace;
