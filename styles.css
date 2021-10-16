@@ -565,13 +565,13 @@ footer {
   }
 
   /* Blog */
-  .blogpage .grid{
+  .blogpage .grid {
     max-width: 100%;
   }
   .card-projects {
     font-size: 0.9em;
   }
-  .card-blogpage{
+  .card-blogpage {
     font-size: 0.9em;
   }
 
@@ -609,5 +609,77 @@ footer {
   }
   .footer .container {
     max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar div {
+    max-width: 95%;
+    font-size: 0.7em;
+  }
+  .navbar a {
+    padding: 8px;
+  }
+  .navbar img {
+    width: 80px;
+  }
+  /* Home */
+
+  .showcase .grid div {
+    font-size: 0.7em;
+  }
+
+  /* About */
+
+  .aboutpage .grid div {
+    font-size: 0.6em;
+  }
+
+  /* Resume */
+
+  .downloadlink .grid div {
+    font-size: 0.6em;
+  }
+
+  .resumepage div {
+    font-size: 0.8em;
+  }
+
+  /* Blog */
+  .card-projects {
+    font-size: 0.6em;
+  }
+  .card-blogpage {
+    font-size: 0.6em;
+  }
+
+  /* contact */
+
+
+  .contactpage .grid div {
+    font-size: 0.7em;
+  }
+  /* footer */
+  footer {
+    height: 200px;
+  }
+  .footer {
+    font-size: 0.8em;
+  }
+  .footer-text {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .footer .social a {
+    font-size: 0.8em;
+  }
+  .footer .social {
+    justify-content: center;
+    font-size: 1.2em;
+  }
+  .footer .grid {
+    grid-template-columns: 1fr;
   }
 }
